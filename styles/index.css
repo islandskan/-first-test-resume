@@ -1,0 +1,63 @@
+body {
+background: rgb(172,187,120);
+background: linear-gradient(117deg, rgba(172,187,120,1) 0%, rgba(122,161,210,1) 100%);
+  }
+
+  /*Gonna fix my fonts, font size, font weight-fixed!*/
+  /*Also, check if my text can have color or if it would affect readability*/
+
+  .resume-title {
+      font-size: 50px;
+      font-family: monospace;
+      font-weight: 700;
+      margin-left: 50px;
+  }
+
+  .name {
+      font-size: 26px;
+      font-family: monospace;
+      font-style:oblique; 
+      font-weight: 600;
+      margin-left: 50px;
+      
+  } 
+
+  /*Gonna ask Michelle about why the .name class didn't work until I changed the class name*/
+  /*name class was first named 'that-is-my-name', then 'my-name'*/
+  /*when the first class names didn't work, I tried just name', then it worked*/
+
+
+  .working-experience, .education, .my-skills {
+      font-size: 20px;
+      font-family: monospace;
+      font-style: oblique;
+      font-weight: 400;
+      margin-left: 75px;
+
+
+  }
+
+  .jobs-i-have-had, .my-listed-educations, .my-listed-skills {
+      font-size: 18px;
+      font-family: monospace;
+      margin-left: 50px;
+
+
+  }
+
+  .how-to-contact-me {
+      font-size: 40px;
+      font-family: monospace;
+      font-weight: 600;
+    margin-left: 50px;
+
+
+
+  }
+
+.mail, .instagram, .github {
+/*gonna read more about links and icons*/
+/*mail - mail glyph*/
+/*instagram - instagram logo*/
+/*github - github logo*/
+/*also, gonna learn more about padding around elements*/
