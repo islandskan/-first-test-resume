@@ -1,16 +1,23 @@
 body {
 background: rgb(172,187,120);
 background: linear-gradient(117deg, rgba(172,187,120,1) 0%, rgba(122,161,210,1) 100%);
+margin: 0px;
+padding: 30px;
+min-height: 100vh;
   }
 
   /*Gonna fix my fonts, font size, font weight-fixed!*/
   /*Also, check if my text can have color or if it would affect readability*/
 
+
+  header, section, footer {
+      margin-left: 30px;
+  }
   .resume-title {
       font-size: 50px;
       font-family: monospace;
       font-weight: 700;
-      margin-left: 50px;
+     
   }
 
   .name {
@@ -18,7 +25,7 @@ background: linear-gradient(117deg, rgba(172,187,120,1) 0%, rgba(122,161,210,1) 
       font-family: monospace;
       font-style:oblique; 
       font-weight: 600;
-      margin-left: 50px;
+      
       
   } 
 
@@ -32,7 +39,7 @@ background: linear-gradient(117deg, rgba(172,187,120,1) 0%, rgba(122,161,210,1) 
       font-family: monospace;
       font-style: oblique;
       font-weight: 400;
-      margin-left: 75px;
+      
 
 
   }
@@ -40,7 +47,7 @@ background: linear-gradient(117deg, rgba(172,187,120,1) 0%, rgba(122,161,210,1) 
   .jobs-i-have-had, .my-listed-educations, .my-listed-skills {
       font-size: 18px;
       font-family: monospace;
-      margin-left: 50px;
+     
 
 
   }
@@ -49,9 +56,17 @@ background: linear-gradient(117deg, rgba(172,187,120,1) 0%, rgba(122,161,210,1) 
       font-size: 40px;
       font-family: monospace;
       font-weight: 600;
-    margin-left: 50px;
+      margin-bottom: 50px;
+    
+  }
 
-
+  .footer{
+      display: block;
+      margin: 30px;
+      max-width: 1280px;
+      height: 25px;
+      padding-top: 10px;
+      padding-bottom: 40px;
 
   }
 
